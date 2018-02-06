@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("vikdixit/nodejsapp")
+        app = docker.build("vikdixit555/node-js-app")
     }
 
     stage('Test image') {
